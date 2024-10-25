@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"advanced_adventure_v1",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"advanced_adventure_v1",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

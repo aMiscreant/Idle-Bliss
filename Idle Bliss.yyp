@@ -36,6 +36,7 @@
   },
   "name":"Idle Bliss",
   "resources":[
+    {"id":{"name":"obj_adventure","path":"objects/obj_adventure/obj_adventure.yy",},},
     {"id":{"name":"obj_axe","path":"objects/obj_axe/obj_axe.yy",},},
     {"id":{"name":"obj_back_to_main","path":"objects/obj_back_to_main/obj_back_to_main.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
@@ -52,6 +53,8 @@
     {"id":{"name":"main_room","path":"rooms/main_room/main_room.yy",},},
     {"id":{"name":"main_trainer","path":"rooms/main_trainer/main_trainer.yy",},},
     {"id":{"name":"room_login","path":"rooms/room_login/room_login.yy",},},
+    {"id":{"name":"advanced_adventure_v1","path":"scripts/advanced_adventure_v1/advanced_adventure_v1.yy",},},
+    {"id":{"name":"character_gain_experience","path":"scripts/character_gain_experience/character_gain_experience.yy",},},
     {"id":{"name":"crafting","path":"scripts/crafting/crafting.yy",},},
     {"id":{"name":"global_init","path":"scripts/global_init/global_init.yy",},},
     {"id":{"name":"load_game","path":"scripts/load_game/load_game.yy",},},
