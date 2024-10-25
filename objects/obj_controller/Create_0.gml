@@ -1,12 +1,12 @@
 // Create event of obj_controller
 global.inventory = {
-    wood: 0,
-    food: 0,
-    ores: 0,        // Start with 100 ores
-    weapons: [],
-    armor: [],
-    potions: [],
-    pets: []          // Can store pets like "Mittens The Kitten"
+    wood: 0,		// Start with 0 wood
+    food: 0,		// Start with 0 food
+    ores: 0,        // Start with 0 ores
+    weapons: [],	// Store Weapons
+    armor: [],		// Store Armor
+    potions: [],	// Store Potions
+    pets: []        // Store Pets
 };
 
 //game_set_speed(30, gamespeed_fps);
@@ -15,11 +15,11 @@ global.message_timer = 0;
 global.ores_message = "";
 global.adventure_message = "";
 global.character_stats = [
-    {name: "Knight", hp: 100, attack: 10, defense: 5, unlocked: true},
-    {name: "Archer", hp: 80, attack: 15, defense: 3, unlocked: false},
-    {name: "Mage", hp: 70, attack: 20, defense: 2, unlocked: false},
-    {name: "Rogue", hp: 90, attack: 12, defense: 4, unlocked: false},
-    {name: "Paladin", hp: 120, attack: 8, defense: 10, unlocked: false}
+    {name: "Dream, The Knight", hp: 100, attack: 10, defense: 5, unlocked: false},
+    {name: "Lynx, The Archer", hp: 80, attack: 15, defense: 3, unlocked: false},
+    {name: "Serenity, The Mage", hp: 70, attack: 20, defense: 2, unlocked: false},
+    {name: "Orvil, The Rogue", hp: 90, attack: 12, defense: 4, unlocked: false},
+    {name: "Maximus, The Paladin", hp: 120, attack: 8, defense: 10, unlocked: false}
 ];
 
 global.adventure_in_progress = false;
@@ -60,3 +60,12 @@ global.is_player_online = true; // Check if player is online
 // Queue for messages
 global.messages = ds_queue_create();
 global.message_timer = 0;
+
+
+// Room Start event in obj_controller
+global.music_playing = true; // Set to true if music should play initially
+global.bgm_adventure = audio_play_sound(bgm_adventure, 1, true); // Start background music
+
+if (!audio_is_playing(global.bgm_adventure)) {
+    global.bgm_adventure = audio_play_sound(bgm_adventure, 1, true);
+}

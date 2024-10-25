@@ -11,11 +11,11 @@ function global_init() {
     // Character unlock system
     global.characters_unlocked = [false, false, false, false, false];  // Five characters to unlock (false = locked)
     global.character_stats = [
-        {name: "Knight", hp: 100, attack: 10, defense: 5, unlocked: false},
-        {name: "Archer", hp: 80, attack: 15, defense: 3, unlocked: false},
-        {name: "Mage", hp: 70, attack: 20, defense: 2, unlocked: false},
-        {name: "Rogue", hp: 90, attack: 12, defense: 4, unlocked: false},
-        {name: "Paladin", hp: 120, attack: 8, defense: 10, unlocked: false}
+        {name: "Dream, The Knight", hp: 100, attack: 10, defense: 5, unlocked: false},
+        {name: "Lynx, The Archer", hp: 80, attack: 15, defense: 3, unlocked: false},
+        {name: "Serenity, The Mage", hp: 70, attack: 20, defense: 2, unlocked: false},
+        {name: "Orvil, The Rogue", hp: 90, attack: 12, defense: 4, unlocked: false},
+        {name: "Maximus, The Paladin", hp: 120, attack: 8, defense: 10, unlocked: false}
     ];
 
     // Inventory system
@@ -25,8 +25,8 @@ function global_init() {
         ores: 0,
         weapons: [],
         armor: [],
-        potions: [],
-        pets: [] // Can store pets
+        potions: [], 
+        pets: [] // Store Pets
     };
 
     // Crafting system - Tracks player crafting progress

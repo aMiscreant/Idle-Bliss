@@ -60,6 +60,7 @@
     {"id":{"name":"load_game","path":"scripts/load_game/load_game.yy",},},
     {"id":{"name":"save_game","path":"scripts/save_game/save_game.yy",},},
     {"id":{"name":"training","path":"scripts/training/training.yy",},},
+    {"id":{"name":"bgm_adventure","path":"sounds/bgm_adventure/bgm_adventure.yy",},},
     {"id":{"name":"spr_adventure_chest_1","path":"sprites/spr_adventure_chest_1/spr_adventure_chest_1.yy",},},
     {"id":{"name":"spr_adventure_chest_2","path":"sprites/spr_adventure_chest_2/spr_adventure_chest_2.yy",},},
     {"id":{"name":"spr_adventure_chest_3","path":"sprites/spr_adventure_chest_3/spr_adventure_chest_3.yy",},},
