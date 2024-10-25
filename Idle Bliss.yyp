@@ -72,6 +72,7 @@
     {"id":{"name":"spr_back_button","path":"sprites/spr_back_button/spr_back_button.yy",},},
     {"id":{"name":"spr_background_main_room","path":"sprites/spr_background_main_room/spr_background_main_room.yy",},},
     {"id":{"name":"spr_background_main","path":"sprites/spr_background_main/spr_background_main.yy",},},
+    {"id":{"name":"spr_blue_flame","path":"sprites/spr_blue_flame/spr_blue_flame.yy",},},
     {"id":{"name":"spr_buton_adventure","path":"sprites/spr_buton_adventure/spr_buton_adventure.yy",},},
     {"id":{"name":"spr_button_pause","path":"sprites/spr_button_pause/spr_button_pause.yy",},},
     {"id":{"name":"spr_button_play","path":"sprites/spr_button_play/spr_button_play.yy",},},
