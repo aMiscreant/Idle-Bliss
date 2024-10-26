@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_craft",
-  "eventList":[],
+  "%Name":"obj_ore_harvest",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":53,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_craft",
+  "name":"obj_ore_harvest",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_crafting",
-    "path":"sprites/spr_crafting/spr_crafting.yy",
+    "name":"spr_ore",
+    "path":"sprites/spr_ore/spr_ore.yy",
   },
   "spriteMaskId":null,
   "visible":true,

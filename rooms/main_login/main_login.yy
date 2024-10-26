@@ -1,13 +1,13 @@
 {
   "$GMRoom":"v1",
-  "%Name":"room_login",
+  "%Name":"main_login",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_71271E21","path":"rooms/room_login/room_login.yy",},
-    {"name":"inst_65F74FF8","path":"rooms/room_login/room_login.yy",},
+    {"name":"inst_71271E21","path":"rooms/main_login/main_login.yy",},
+    {"name":"inst_65F74FF8","path":"rooms/main_login/main_login.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -21,7 +21,7 @@
         {"$GMRSpriteGraphic":"","%Name":"graphic_302F4984","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_302F4984","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":1.5064754,"scaleX":3.0,"scaleY":2.8823528,"spriteId":{"name":"spr_treasure_chest_14","path":"sprites/spr_treasure_chest_14/spr_treasure_chest_14.yy",},"x":640.0,"y":720.0,},
       ],"depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
-  "name":"room_login",
+  "name":"main_login",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",

@@ -14,13 +14,15 @@ global.player_name = "Dream";
 global.message_timer = 0;
 global.ores_message = "";
 global.adventure_message = "";
-global.character_stats = [
-    {name: "Dream, The Knight", hp: 100, attack: 10, defense: 5, unlocked: false},
-    {name: "Lynx, The Archer", hp: 80, attack: 15, defense: 3, unlocked: false},
-    {name: "Serenity, The Mage", hp: 70, attack: 20, defense: 2, unlocked: false},
-    {name: "Orvil, The Rogue", hp: 90, attack: 12, defense: 4, unlocked: false},
-    {name: "Maximus, The Paladin", hp: 120, attack: 8, defense: 10, unlocked: false}
+global.characters = [
+    { name: "Dream, the Knight", level: 1, hp: 100, max_hp: 100, attack: 15, max_attack: 50, defense: 10, max_defense: 60, current_exp: 0, exp_to_next_level: 50, unlocked: true },
+    { name: "Kul, The Mage", level: 0, hp: 80, max_hp: 80, attack: 20, max_attack: 55, defense: 5, max_defense: 55, current_exp: 0, exp_to_next_level: 50, unlocked: false },
+    { name: "Serenity, The Archer", level: 0, hp: 90, max_hp: 90, attack: 18, max_attack: 53, defense: 8, max_defense: 58, current_exp: 0, exp_to_next_level: 50, unlocked: false },
+    { name: "Lost, The Thief", level: 0, hp: 85, max_hp: 85, attack: 17, max_attack: 52, defense: 7, max_defense: 57, current_exp: 0, exp_to_next_level: 50, unlocked: false },
+    { name: "Maximus, The Paladin", level: 0, hp: 120, max_hp: 120, attack: 12, max_attack: 47, defense: 15, max_defense: 65, current_exp: 0, exp_to_next_level: 50, unlocked: false }
 ];
+global.current_character = 0;  // Default to the first character
+
 
 global.adventure_in_progress = false;
 global.adventure_timer = 0;
@@ -44,11 +46,11 @@ global.crafting_recipes = {
 
 global.currency = 0;  // In-game currency for purchases
 global.store_characters = [
-    {name: "Dragon Warrior", price: 1000, unlocked: false},
-    {name: "Sorcerer Queen", price: 1500, unlocked: false},
-    {name: "Dark Knight", price: 2000, unlocked: false},
+    {name: "Cage, The Dragon Warrior", price: 1000, unlocked: false},
+    {name: "Xanu, The Sorcerer Queen", price: 1500, unlocked: false},
+    {name: "Mystic, The Dark Knight", price: 2000, unlocked: false},
     {name: "Shadow Assassin", price: 2500, unlocked: false},
-    {name: "Phoenix Mage", price: 3000, unlocked: false}
+    {name: "Ava, The Phoenix Mage", price: 3000, unlocked: false}
 ];
 
 // Game settings
@@ -70,13 +72,7 @@ if (!audio_is_playing(global.bgm_adventure)) {
     global.bgm_adventure = audio_play_sound(bgm_adventure, 1, true);
 }
 
-// Define ore levels and experience requirements in obj_controller's Create event or Room Start event
-//global.ore_levels = ["Copper", "Iron", "Silver", "Gold", "Platinum"]; // Example ores
-//global.ore_exp_requirements = [0, 50, 150, 300, 500]; // Required EXP for each level
 
-//global.current_ore_level = 0; // Start at level 0 (Copper)
-//global.current_exp = 0; // Initial experience points/
-//global.exp_to_next_level = global.ore_exp_requirements[1]; // EXP needed to reach Iron
 // In the Create event of obj_controller, initialize these global variables:
 // Ore levels, experience, and other tracking variables
 global.ore_levels = ["Copper", "Iron", "Steel", "Silver", "Gold"];

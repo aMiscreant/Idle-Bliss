@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_trainer",
+  "%Name":"obj_wood_room",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_trainer",
+  "name":"obj_wood_room",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,9 +30,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_trainer",
-    "path":"sprites/spr_trainer/spr_trainer.yy",
+    "name":"spr_axe",
+    "path":"sprites/spr_axe/spr_axe.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_axe",
+    "path":"sprites/spr_axe/spr_axe.yy",
+  },
   "visible":true,
 }

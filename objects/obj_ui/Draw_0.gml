@@ -12,18 +12,11 @@ draw_text(20, 100, "Wood Level: " + global.wood_levels[global.current_wood_level
 draw_text(20, 120, "WOOD EXP: " + string(global.current_exp_wood) + " / " + string(global.current_wood_level));
 draw_text(20, 140, "Wood in Inventory: " + string(global.inventory.wood));
 
-
 // Display Food Information
 //draw_text(20, 140, "Food: " + string(global.inventory.food));
-
 draw_text(20, 180, "Food Level: " + global.food_levels[global.current_food_level]);
 draw_text(20, 200, "FOOD EXP: " + string(global.current_exp_food) + " / " + string(global.current_food_level));
 draw_text(20, 220, "Food in Inventory: " + string(global.inventory.food));
-
-
-
-// Display Player Name
-draw_text(20, 240, "Character Selected: " + string(global.player_name));
 
 // Display Currency Information
 draw_text(20, 260, "Currency: " + string(global.currency));
@@ -45,9 +38,9 @@ if (global.adventure_message != "") {
 if (global.current_adventure_character != -1) {
     var char = global.character_stats[global.current_adventure_character];
     var char_stats = "Character: " + char.name + "\nHP: " + string(char.hp) + "\nAttack: " + string(char.attack) + "\nDefense: " + string(char.defense);
-    draw_text(20, 320, char_stats);
+    draw_text(20, 380, char_stats);
 } else {
-    draw_text(20, 320, "No Character Selected");
+    draw_text(20, 400, "No Character Selected");
 }
 
 // Display Crafted Weapons
@@ -57,7 +50,7 @@ for (var i = 0; i < array_length(global.crafting_recipes.weapons); i++) {
         crafted_weapons += global.crafting_recipes.weapons[i].name + ", ";
     }
 }
-draw_text(20, 380, crafted_weapons);
+draw_text(20, 420, crafted_weapons);
 
 // Display Crafted Armor
 var crafted_armor = "Armor: ";
@@ -66,12 +59,12 @@ for (var i = 0; i < array_length(global.crafting_recipes.armor); i++) {
         crafted_armor += global.crafting_recipes.armor[i].name + ", ";
     }
 }
-draw_text(20, 400, crafted_armor);
+draw_text(20, 440, crafted_armor);
 
 // Display the Number of Pets
 var pets_text = "Pets: " + string(array_length(global.inventory.pets));
-draw_text(20, 420, pets_text);
+draw_text(20, 460, pets_text);
 
 // Display the Number of Potions
 var potions_text = "Potions: " + string(array_length(global.inventory.potions));
-draw_text(20, 440, potions_text);
+draw_text(20, 480, potions_text);

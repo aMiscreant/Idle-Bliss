@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ore",
+  "%Name":"obj_trainer_room",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_ore",
+  "name":"obj_trainer_room",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ore",
-    "path":"sprites/spr_ore/spr_ore.yy",
+    "name":"spr_trainer",
+    "path":"sprites/spr_trainer/spr_trainer.yy",
   },
   "spriteMaskId":null,
   "visible":true,
