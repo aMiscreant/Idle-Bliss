@@ -1,27 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_main_character_female",
+  "%Name":"spr_maximus_paladin",
   "bboxMode":0,
-  "bbox_bottom":60,
-  "bbox_left":4,
-  "bbox_right":58,
-  "bbox_top":3,
+  "bbox_bottom":79,
+  "bbox_left":3,
+  "bbox_right":95,
+  "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0998dc64-333d-4612-97bb-07b2d7676935","name":"0998dc64-333d-4612-97bb-07b2d7676935","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b3340433-183e-4523-a3ae-3e796222f2d8","name":"b3340433-183e-4523-a3ae-3e796222f2d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":81,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"786df058-57fe-412c-89ca-d68d399859d1","blendMode":0,"displayName":"default","isLocked":false,"name":"786df058-57fe-412c-89ca-d68d399859d1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"09e6d4c9-abd3-452f-8609-ae98e7cb83d7","blendMode":0,"displayName":"default","isLocked":false,"name":"09e6d4c9-abd3-452f-8609-ae98e7cb83d7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_main_character_female",
+  "name":"spr_maximus_paladin",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_main_character_female",
+    "%Name":"spr_maximus_paladin",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_main_character_female",
+    "name":"spr_maximus_paladin",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0998dc64-333d-4612-97bb-07b2d7676935","path":"sprites/spr_main_character_female/spr_main_character_female.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0fb14e62-6b94-4aa7-9b01-3ace175a673d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3340433-183e-4523-a3ae-3e796222f2d8","path":"sprites/spr_maximus_paladin/spr_maximus_paladin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e1707323-7741-4043-be6b-f685ba344d7a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":100,
 }
