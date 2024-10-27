@@ -1,27 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"Sprite61",
+  "%Name":"spr_food_potatoes",
   "bboxMode":0,
-  "bbox_bottom":31,
+  "bbox_bottom":36,
   "bbox_left":0,
-  "bbox_right":29,
-  "bbox_top":3,
+  "bbox_right":36,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d50d6639-e0a2-45f9-9da3-9e7c65061a52","name":"d50d6639-e0a2-45f9-9da3-9e7c65061a52","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"5d6c89d2-ec53-4d44-a871-a921d680c3c3","name":"5d6c89d2-ec53-4d44-a871-a921d680c3c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":32,
+  "height":37,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"03f0eea2-a321-451b-8e42-0de0547fe71d","blendMode":0,"displayName":"default","isLocked":false,"name":"03f0eea2-a321-451b-8e42-0de0547fe71d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"77279d4d-001e-4687-92bc-a1f9acfa6c15","blendMode":0,"displayName":"default","isLocked":false,"name":"77279d4d-001e-4687-92bc-a1f9acfa6c15","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Sprite61",
+  "name":"spr_food_potatoes",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Sprite61",
+    "%Name":"spr_food_potatoes",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Sprite61",
+    "name":"spr_food_potatoes",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d50d6639-e0a2-45f9-9da3-9e7c65061a52","path":"sprites/Sprite61/Sprite61.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f61236a6-c7af-410d-9adf-5db6dae8cb99","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5d6c89d2-ec53-4d44-a871-a921d680c3c3","path":"sprites/spr_food_potatoes/spr_food_potatoes.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3e9b613a-e801-4a35-870e-6c90b58635c9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":32,
+  "width":37,
 }

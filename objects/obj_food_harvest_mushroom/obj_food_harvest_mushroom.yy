@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite63",
-    "path":"sprites/Sprite63/Sprite63.yy",
+    "name":"spr_food_mushrooms",
+    "path":"sprites/spr_food_mushrooms/spr_food_mushrooms.yy",
   },
   "spriteMaskId":null,
   "visible":true,

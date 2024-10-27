@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite62",
-    "path":"sprites/Sprite62/Sprite62.yy",
+    "name":"spr_food_potatoes",
+    "path":"sprites/spr_food_potatoes/spr_food_potatoes.yy",
   },
   "spriteMaskId":null,
   "visible":true,

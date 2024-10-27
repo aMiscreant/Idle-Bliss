@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite64",
-    "path":"sprites/Sprite64/Sprite64.yy",
+    "name":"spr_food_meat",
+    "path":"sprites/spr_food_meat/spr_food_meat.yy",
   },
   "spriteMaskId":null,
   "visible":true,

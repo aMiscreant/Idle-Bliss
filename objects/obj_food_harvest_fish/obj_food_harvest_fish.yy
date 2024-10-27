@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite61",
-    "path":"sprites/Sprite61/Sprite61.yy",
+    "name":"spr_food_fish",
+    "path":"sprites/spr_food_fish/spr_food_fish.yy",
   },
   "spriteMaskId":null,
   "visible":true,
