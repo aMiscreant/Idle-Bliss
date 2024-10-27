@@ -9,8 +9,8 @@
   "name":"obj_wood_harvest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"wood",
+    "path":"folders/Objects/wood.yy",
   },
   "parentObjectId":null,
   "persistent":false,

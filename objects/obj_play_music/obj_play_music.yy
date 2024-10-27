@@ -6,8 +6,8 @@
   "name":"obj_play_music",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"basic",
+    "path":"folders/Objects/basic.yy",
   },
   "parentObjectId":null,
   "persistent":false,

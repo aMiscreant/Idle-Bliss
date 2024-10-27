@@ -1,18 +1,30 @@
-// Create event of obj_controller
+//["Oak", "Pine", "Birch", "Maple", "Mahogany"]
 global.inventory = {
-    wood: 0,		// Start with 0 wood
-    food: 0,		// Start with 0 food
-    ores: 0,        // Start with 0 ores
-    weapons: [],	// Store Weapons
-    armor: [],		// Store Armor
-    potions: [],	// Store Potions
-    pets: []        // Store Pets
+	ores: 0,
+    wood: 0,
+    food: 0,
+	oak: 0,
+	pine: 0,
+	birch: 0,
+	maple: 0,
+	mahogany: 0,
+    berries: 0,
+    potatoes: 0,
+    fish: 0,
+    mushrooms: 0,
+    meat: 0,
+    weapons: [],
+    armor: [],
+    potions: [],
+    pets: []
 };
+
 
 //game_set_speed(30, gamespeed_fps);
 global.player_name = "Dream";
+
 global.message_timer = 0;
-global.ores_message = "";
+
 global.adventure_message = "";
 global.characters = [
     { name: "Dream, the Knight", level: 1, hp: 100, max_hp: 100, attack: 15, max_attack: 50, defense: 10, max_defense: 60, current_exp: 0, exp_to_next_level: 50, unlocked: true },
@@ -82,6 +94,7 @@ global.ore_exp_requirements = [10, 20, 30, 40, 50]; // Example values for experi
 global.current_ore_exp = 0;  // Player's current experience
 global.exp_to_next_level = global.ore_exp_requirements[1];  // Set initial level-up requirement
 global.inventory.ores = 0;  // Start with zero ores in the inventory
+global.ores_message = "";
 
 global.wood_levels = ["Oak", "Pine", "Birch", "Maple", "Mahogany"]; // Different types of wood
 global.current_wood_level = 0;  // Start at the first level (Oak)
@@ -89,6 +102,7 @@ global.wood_exp_requirements = [10, 20, 30, 40, 50]; // Experience requirements 
 global.current_exp_wood = 0;  // Player's current experience for wood
 global.exp_to_next_level_wood = global.wood_exp_requirements[1]; // Set initial level-up requirement
 global.inventory.wood = 0;  // Start with zero wood in the inventory
+global.wood_message = "";
 
 global.food_levels = ["Berries", "Potatoes", "Fish", "Mushrooms", "Meat"];
 global.current_food_level = 0;
@@ -96,3 +110,11 @@ global.food_exp_requirements = [10, 20, 30, 40, 50];
 global.current_exp_food = 0;
 global.exp_to_next_level_food = global.food_exp_requirements[1];
 global.inventory.food = 0;
+global.food_message = "";
+
+// Check if an instance of obj_controller already exists
+if (!instance_exists(obj_controller)) {
+    instance_set_persistent(true); // Make it persistent across rooms
+} else {
+    instance_destroy(); // Destroy any additional obj_controller instances
+}
