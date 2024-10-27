@@ -1,7 +1,7 @@
 //global.ore_levels = ["Copper", "Iron", "Steel", "Silver", "Gold"];
 
 global.inventory = {
-	ore: 0,
+	ores: 0,
 	copper: 0,
 	iron: 0,
 	steel: 0,
@@ -31,11 +31,11 @@ global.message_timer = 0;
 
 
 global.characters = [
-    { name: "Dream, the Knight", level: 1, hp: 100, max_hp: 100, attack: 15, max_attack: 50, defense: 10, max_defense: 60, current_exp: 0, exp_to_next_level: 50, unlocked: true },
-    { name: "Kul, The Mage", level: 0, hp: 80, max_hp: 80, attack: 20, max_attack: 55, defense: 5, max_defense: 55, current_exp: 0, exp_to_next_level: 50, unlocked: false },
-    { name: "Serenity, The Archer", level: 0, hp: 90, max_hp: 90, attack: 18, max_attack: 53, defense: 8, max_defense: 58, current_exp: 0, exp_to_next_level: 50, unlocked: false },
-    { name: "Lost, The Thief", level: 0, hp: 85, max_hp: 85, attack: 17, max_attack: 52, defense: 7, max_defense: 57, current_exp: 0, exp_to_next_level: 50, unlocked: false },
-    { name: "Maximus, The Paladin", level: 0, hp: 120, max_hp: 120, attack: 12, max_attack: 47, defense: 15, max_defense: 65, current_exp: 0, exp_to_next_level: 50, unlocked: false }
+    { name: "Dream, the Knight", level: 1, hp: 100, max_hp: 100, attack: 15, max_attack: 50, defense: 10, max_defense: 60, current_exp: 0, exp_to_next_level: 50, sprite: spr_dream_knight, unlocked: true },
+    { name: "Kul, The Mage", level: 0, hp: 80, max_hp: 80, attack: 20, max_attack: 55, defense: 5, max_defense: 55, current_exp: 0, exp_to_next_level: 50,  sprite: spr_kul_mage, unlocked: false },
+    { name: "Serenity, The Archer", level: 0, hp: 90, max_hp: 90, attack: 18, max_attack: 53, defense: 8, max_defense: 58, current_exp: 0, exp_to_next_level: 50, sprite: spr_serenity_archer, unlocked: false },
+    { name: "Lost, The Thief", level: 0, hp: 85, max_hp: 85, attack: 17, max_attack: 52, defense: 7, max_defense: 57, current_exp: 0, exp_to_next_level: 50,  sprite: spr_lost_thief, unlocked: false },
+    { name: "Maximus, The Paladin", level: 0, hp: 120, max_hp: 120, attack: 12, max_attack: 47, defense: 15, max_defense: 65, current_exp: 0, exp_to_next_level: 50,  sprite: spr_maximus_paladin, unlocked: false }
 ];
 global.current_character = 0;  // Default to the first character
 

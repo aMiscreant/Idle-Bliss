@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_character_selector",
+  "%Name":"obj_adventure_room",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_character_selector",
+  "name":"obj_adventure_room",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"adventure",
+    "path":"folders/Objects/adventure.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_buton_adventure",
+    "path":"sprites/spr_buton_adventure/spr_buton_adventure.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
