@@ -1,7 +1,7 @@
 //global.ore_levels = ["Copper", "Iron", "Steel", "Silver", "Gold"];
 
 global.inventory = {
-	ores: 0,
+	ore: 0,
 	copper: 0,
 	iron: 0,
 	steel: 0,
@@ -26,12 +26,10 @@ global.inventory = {
 };
 
 
-//game_set_speed(30, gamespeed_fps);
-global.player_name = "Dream";
 
 global.message_timer = 0;
 
-global.adventure_message = "";
+
 global.characters = [
     { name: "Dream, the Knight", level: 1, hp: 100, max_hp: 100, attack: 15, max_attack: 50, defense: 10, max_defense: 60, current_exp: 0, exp_to_next_level: 50, unlocked: true },
     { name: "Kul, The Mage", level: 0, hp: 80, max_hp: 80, attack: 20, max_attack: 55, defense: 5, max_defense: 55, current_exp: 0, exp_to_next_level: 50, unlocked: false },
@@ -46,30 +44,9 @@ global.adventure_in_progress = false;
 global.adventure_timer = 0;
 global.current_adventure_character = -1;
 global.current_adventure_stage = 0;
-
-global.crafting_recipes = {
-    weapons: [
-        {name: "Iron Sword", crafted: false},
-        {name: "Steel Axe", crafted: false}
-    ],
-    armor: [
-        {name: "Leather Armor", crafted: false},
-        {name: "Chainmail", crafted: false}
-    ],
-    potions: [
-        {name: "Health Potion", crafted: false},
-        {name: "Mana Potion", crafted: false}
-    ]
-};
+global.adventure_message = "";
 
 global.currency = 0;  // In-game currency for purchases
-global.store_characters = [
-    {name: "Cage, The Dragon Warrior", price: 1000, unlocked: false},
-    {name: "Xanu, The Sorcerer Queen", price: 1500, unlocked: false},
-    {name: "Mystic, The Dark Knight", price: 2000, unlocked: false},
-    {name: "Shadow Assassin", price: 2500, unlocked: false},
-    {name: "Ava, The Phoenix Mage", price: 3000, unlocked: false}
-];
 
 // Game settings
 global.sound_volume = 1;      // Sound volume (1 = max)
@@ -91,7 +68,6 @@ if (!audio_is_playing(global.bgm_adventure)) {
 }
 
 
-// In the Create event of obj_controller, initialize these global variables:
 // Ore levels, experience, and other tracking variables
 global.ore_levels = ["Copper", "Iron", "Steel", "Silver", "Gold"];
 global.current_ore_level = 0;  // Start at the first level (Copper)
@@ -102,6 +78,7 @@ global.exp_to_next_ore_level = global.ore_exp_requirements[1];  // Set initial l
 global.inventory.ores = 0;  // Start with zero ores in the inventory
 global.ore_message = "";
 
+// Wood  levels, experience, and other tracking variables
 global.wood_levels = ["Oak", "Pine", "Birch", "Maple", "Mahogany"]; // Different types of wood
 global.current_wood_level = 0;  // Start at the first level (Oak)
 global.wood_exp_requirements = [10, 20, 30, 40, 50]; // Experience requirements for each wood level
@@ -110,6 +87,7 @@ global.exp_to_next_wood_level = global.wood_exp_requirements[1]; // Set initial 
 global.inventory.wood = 0;  // Start with zero wood in the inventory
 global.wood_message = "";
 
+// food levels, experience, and other tracking variables
 global.food_levels = ["Berries", "Potatoes", "Fish", "Mushrooms", "Meat"];
 global.current_food_level = 0;
 global.food_exp_requirements = [10, 20, 30, 40, 50];

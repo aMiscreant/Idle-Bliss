@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_adventure",
+  "%Name":"obj_adventure_ui",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_adventure",
+  "name":"obj_adventure_ui",
   "overriddenProperties":[],
   "parent":{
     "name":"adventure",
@@ -31,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_buton_adventure",
-    "path":"sprites/spr_buton_adventure/spr_buton_adventure.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
