@@ -1,13 +1,19 @@
-//["Oak", "Pine", "Birch", "Maple", "Mahogany"]
+//global.ore_levels = ["Copper", "Iron", "Steel", "Silver", "Gold"];
+
 global.inventory = {
 	ores: 0,
+	copper: 0,
+	iron: 0,
+	steel: 0,
+	silver: 0,
+	gold: 0,
     wood: 0,
-    food: 0,
 	oak: 0,
 	pine: 0,
 	birch: 0,
 	maple: 0,
 	mahogany: 0,
+	food: 0,
     berries: 0,
     potatoes: 0,
     fish: 0,
@@ -92,15 +98,15 @@ global.current_ore_level = 0;  // Start at the first level (Copper)
 global.ore_exp_requirements = [10, 20, 30, 40, 50]; // Example values for experience requirements
 //global.ore_exp_requirements = [0, 100, 250, 500];  // Experience needed to reach each level
 global.current_ore_exp = 0;  // Player's current experience
-global.exp_to_next_level = global.ore_exp_requirements[1];  // Set initial level-up requirement
+global.exp_to_next_ore_level = global.ore_exp_requirements[1];  // Set initial level-up requirement
 global.inventory.ores = 0;  // Start with zero ores in the inventory
-global.ores_message = "";
+global.ore_message = "";
 
 global.wood_levels = ["Oak", "Pine", "Birch", "Maple", "Mahogany"]; // Different types of wood
 global.current_wood_level = 0;  // Start at the first level (Oak)
 global.wood_exp_requirements = [10, 20, 30, 40, 50]; // Experience requirements for each wood level
-global.current_exp_wood = 0;  // Player's current experience for wood
-global.exp_to_next_level_wood = global.wood_exp_requirements[1]; // Set initial level-up requirement
+global.current_wood_exp = 0;  // Player's current experience for wood
+global.exp_to_next_wood_level = global.wood_exp_requirements[1]; // Set initial level-up requirement
 global.inventory.wood = 0;  // Start with zero wood in the inventory
 global.wood_message = "";
 

@@ -33,9 +33,6 @@
     "name":"spr_axe",
     "path":"sprites/spr_axe/spr_axe.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_axe",
-    "path":"sprites/spr_axe/spr_axe.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

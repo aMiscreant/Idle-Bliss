@@ -1,9 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-// Set the starting coordinates for the food display
-//global.wood_levels = ["Oak", "Pine", "Birch", "Maple", "Mahogany"]; // Different types of wood
-
-
+// Set the starting coordinates for the ore display
+// global.wood_levels = ["Oak", "Pine", "Birch", "Maple", "Mahogany"];
 var x_start = 10;   // X-coordinate for the text
 var y_start = 10;   // Y-coordinate for the first line of text
 var y_offset = 25;  // Vertical space between each line of text
