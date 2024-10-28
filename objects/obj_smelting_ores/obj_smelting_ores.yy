@@ -6,8 +6,8 @@
   "name":"obj_smelting_ores",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"ore",
+    "path":"folders/Objects/ore.yy",
   },
   "parentObjectId":null,
   "persistent":false,

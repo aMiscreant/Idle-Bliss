@@ -8,8 +8,8 @@
   "name":"obj_trainer_room",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"trainer",
+    "path":"folders/Objects/trainer.yy",
   },
   "parentObjectId":null,
   "persistent":false,

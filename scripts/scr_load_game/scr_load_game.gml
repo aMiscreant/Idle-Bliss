@@ -1,4 +1,4 @@
-function load_game() {
+function scr_load_game() {
     var save_path = "game_save.json";
 
     // Check if the save file exists

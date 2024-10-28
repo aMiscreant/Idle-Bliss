@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-train_stat(0, "attack");
+sprite_index = global.characters[global.current_character].sprite;

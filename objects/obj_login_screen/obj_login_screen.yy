@@ -8,8 +8,8 @@
   "name":"obj_login_screen",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"login",
+    "path":"folders/Objects/login.yy",
   },
   "parentObjectId":null,
   "persistent":false,

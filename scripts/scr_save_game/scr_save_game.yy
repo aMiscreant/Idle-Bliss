@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"refresh_menu_items",
+  "%Name":"scr_save_game",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"refresh_menu_items",
+  "name":"scr_save_game",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

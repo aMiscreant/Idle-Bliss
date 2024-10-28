@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"check_unlocks",
+  "%Name":"scr_load_game",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"check_unlocks",
+  "name":"scr_load_game",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

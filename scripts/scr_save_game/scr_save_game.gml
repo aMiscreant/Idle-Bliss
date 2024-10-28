@@ -1,4 +1,4 @@
-function save_game() {
+function scr_save_game() {
     // Create a temporary struct to store the game state
     var game_state = {
         inventory: global.inventory,
