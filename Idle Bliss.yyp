@@ -97,6 +97,7 @@
     {"id":{"name":"main_wood","path":"rooms/main_wood/main_wood.yy",},},
     {"id":{"name":"check_unlocks","path":"scripts/check_unlocks/check_unlocks.yy",},},
     {"id":{"name":"load_game","path":"scripts/load_game/load_game.yy",},},
+    {"id":{"name":"refresh_menu_items","path":"scripts/refresh_menu_items/refresh_menu_items.yy",},},
     {"id":{"name":"save_game","path":"scripts/save_game/save_game.yy",},},
     {"id":{"name":"bgm_adventure","path":"sounds/bgm_adventure/bgm_adventure.yy",},},
     {"id":{"name":"main_floor_3","path":"sprites/main_floor_3/main_floor_3.yy",},},

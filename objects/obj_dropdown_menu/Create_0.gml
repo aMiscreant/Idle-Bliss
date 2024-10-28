@@ -7,6 +7,9 @@ item_height = 30;
 is_open = false;
 selected_index = -1;
 
+// Initially populate with unlocked characters only
+refresh_menu_items();
+
 // Array for all characters
 all_characters = [
     { name: "Dream, the Knight", unlocked: true },
