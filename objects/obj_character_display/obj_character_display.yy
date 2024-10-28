@@ -9,8 +9,8 @@
   "name":"obj_character_display",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"character",
+    "path":"folders/Objects/character.yy",
   },
   "parentObjectId":null,
   "persistent":true,
