@@ -58,23 +58,4 @@ if (inventory_open) {
         draw_text(posX, posY + 45, item.name + ": " + string(item.amount));
     }
 
-    // Draw Up/Down Arrows and handle click events
-    var arrow_up_x = ui_x + 260;
-    var arrow_up_y = ui_y + 10;
-    var arrow_down_x = ui_x + 260;
-    var arrow_down_y = ui_y + 310;
-
-    if (global.current_page > 0) {
-        draw_sprite(spr_arrow_up, 0, arrow_up_x, arrow_up_y);
-        if (mouse_check_button_pressed(mb_left) && point_in_rectangle(mouse_x, mouse_y, arrow_up_x, arrow_up_y, arrow_up_x + 32, arrow_up_y + 32)) {
-            global.current_page -= 1;
-        }
-    }
-
-    if (global.current_page < total_pages - 1) {
-        draw_sprite(spr_arrow_down, 0, arrow_down_x, arrow_down_y);
-        if (mouse_check_button_pressed(mb_left) && point_in_rectangle(mouse_x, mouse_y, arrow_down_x, arrow_down_y, arrow_down_x + 32, arrow_down_y + 32)) {
-            global.current_page += 1;
-        }
-    }
 }
