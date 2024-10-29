@@ -1,7 +1,6 @@
 //global.ore_levels = ["Copper", "Iron", "Steel", "Silver", "Gold"];
 
 global.inventory = {
-	ore: 0,
 	copper: 0,
 	iron: 0,
 	steel: 0,
@@ -12,13 +11,11 @@ global.inventory = {
 	steel_bars: 0,
 	silver_bars: 0,
 	gold_bars: 0,
-    wood: 0,
 	oak: 0,
 	pine: 0,
 	birch: 0,
 	maple: 0,
 	mahogany: 0,
-	food: 0,
     berries: 0,
     potatoes: 0,
     fish: 0,
