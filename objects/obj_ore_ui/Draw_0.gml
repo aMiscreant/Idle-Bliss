@@ -13,5 +13,9 @@ draw_text(x_start, y_start + 2 * y_offset, "Iron: " + string(global.inventory.ir
 draw_text(x_start, y_start + 3 * y_offset, "Steel: " + string(global.inventory.steel));         // Specific item count for Steel
 draw_text(x_start, y_start + 4 * y_offset, "Silver: " + string(global.inventory.silver)); // Specific item count for Silver
 draw_text(x_start, y_start + 5 * y_offset, "Gold: " + string(global.inventory.gold));           // Specific item count for Gold
-
+draw_text(x_start, y_start + 6 * y_offset, "Copper Bars" + string(global.inventory.copper_bars));
+draw_text(x_start, y_start + 7 * y_offset, "Iron Bars" + string(global.inventory.iron_bars));
+draw_text(x_start, y_start + 8 * y_offset, "Steel Bars" + string(global.inventory.steel_bars));
+draw_text(x_start, y_start + 9 * y_offset, "Silver Bars" + string(global.inventory.silver_bars));
+draw_text(x_start, y_start + 10 * y_offset, "Gold Bars" + string(global.inventory.gold_bars));
 // Optional: add other UI elements for clarity or styling if desired

@@ -1,12 +1,17 @@
 //global.ore_levels = ["Copper", "Iron", "Steel", "Silver", "Gold"];
 
 global.inventory = {
-	ores: 0,
+	ore: 0,
 	copper: 0,
 	iron: 0,
 	steel: 0,
 	silver: 0,
 	gold: 0,
+	copper_bars: 0,
+	iron_bars: 0,
+	steel_bars: 0,
+	silver_bars: 0,
+	gold_bars: 0,
     wood: 0,
 	oak: 0,
 	pine: 0,
@@ -102,3 +107,13 @@ if (!instance_exists(obj_controller)) {
 } else {
     instance_destroy(); // Destroy any additional obj_controller instances
 }
+
+
+// Smelting recipes for converting ores to bars
+global.smelting_recipes = [
+    { ore: "copper", bar: "copper_bars", ore_required: 5, fuel_type: "oak", fuel_amount: 1 },
+    { ore: "iron", bar: "iron_bars", ore_required: 10, fuel_type: "pine", fuel_amount: 2 },
+    { ore: "steel", bar: "steel_bars", ore_required: 15, fuel_type: "birch", fuel_amount: 3 },
+    { ore: "silver", bar: "silver_bars", ore_required: 20, fuel_type: "maple", fuel_amount: 4 },
+    { ore: "gold", bar: "gold_bars", ore_required: 25, fuel_type: "mahogany", fuel_amount: 5 }
+];
