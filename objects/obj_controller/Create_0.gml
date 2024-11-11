@@ -1,5 +1,3 @@
-//global.ore_levels = ["Copper", "Iron", "Steel", "Silver", "Gold"];
-
 global.inventory = {
 	copper: 0,
 	iron: 0,
@@ -21,6 +19,11 @@ global.inventory = {
     fish: 0,
     mushrooms: 0,
     meat: 0,
+	healing_potion: 0,
+    stamina_potion: 0,
+    attack_potion: 0,
+    defense_potion: 0,
+    mana_potion: 0,
     weapons: [],
     armor: [],
     potions: [],
@@ -98,6 +101,7 @@ global.exp_to_next_level_food = global.food_exp_requirements[1];
 global.inventory.food = 0;
 global.food_message = "";
 
+
 // Check if an instance of obj_controller already exists
 if (!instance_exists(obj_controller)) {
     instance_set_persistent(true); // Make it persistent across rooms
@@ -105,6 +109,15 @@ if (!instance_exists(obj_controller)) {
     instance_destroy(); // Destroy any additional obj_controller instances
 }
 
+
+
+global.potion_recipes = [
+    {name: "Healing Potion", food_required: "berries", food_amount: 5, ore_required: "copper", ore_amount: 10, wood_required: "oak", wood_amount: 6, output: "healing_potion"},
+    {name: "Stamina Potion", food_required: "potatoes", food_amount: 5, ore_required: "iron", ore_amount: 10, wood_required: "pine", wood_amount: 6, output: "stamina_potion"},
+    {name: "Attack Potion", food_required: "fish", food_amount: 5, ore_required: "steel", ore_amount: 10, wood_required: "birch", wood_amount: 6, output: "attack_potion"},
+    {name: "Defense Potion", food_required: "mushrooms", food_amount: 5, ore_required: "silver", ore_amount: 10, wood_required: "maple", wood_amount: 6, output: "defense_potion"},
+    {name: "Mana Potion", food_required: "meat", food_amount: 5, ore_required: "gold", ore_amount: 10, wood_required: "mahogany", wood_amount: 6, output: "mana_potion"}
+];
 
 // Smelting recipes for converting ores to bars
 global.smelting_recipes = [
@@ -114,3 +127,4 @@ global.smelting_recipes = [
     { ore: "silver", bar: "silver_bars", ore_required: 20, fuel_type: "maple", fuel_amount: 4 },
     { ore: "gold", bar: "gold_bars", ore_required: 25, fuel_type: "mahogany", fuel_amount: 5 }
 ];
+
